@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+void pilihanBoolean (){
+    cout << " Welcome to the Boolean Based Calculator program " ;
+    cout << "\n    Project by Group 6 Basic's Programming \n" ;
+    cout << "\n Number 0 is FALSE and 1 is TRUE \n" ;
+    cout << "\n Please choose the logic operation \n" ;
+    cout << "1. AND\n" ;
+    cout << "2. OR\n" ;
+    cout << "3. NOT\n" ;
+    cout << "4. XOR\n" ;
+    cout << "5. NAND\n" ;
+    cout << "6. NOR\n" ;
+    cout << "7. XNOR\n" ;
+    cout << "8. Keluar\n" ;
+    cout << "Masukkan pilihan anda <3 (1-6): ";
+}
