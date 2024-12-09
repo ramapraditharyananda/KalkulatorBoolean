@@ -1,0 +1,45 @@
+case 5:
+            
+            cout << "Please input the value of X (0 atau 1) ";
+            cin >> x;
+            cout << "Please input the value of y (0 atau 1) ";
+            cin >> y;
+            hasil = !(x && y);
+            cout << "The result X NAND Y is " << hasil ;
+            cout << "\n0 is FALSE and 1 is TRUE " << endl;
+            exit(0);
+            
+            case 6:
+            cout << "Please input the value of X (0 atau 1) ";
+            cin >> x;
+            cout << "Please input the value of y (0 atau 1) ";
+            cin >> y;
+            hasil = !(x || y);
+            cout << "The result X NOR Y is " << hasil ;
+            cout << "\n0 is FALSE and 1 is TRUE " << endl ;
+            exit(0);
+            
+            case 7:
+            
+            cout << "Please input the value of X (0 atau 1) ";
+            cin >> x;
+            cout << "Please input the value of y (0 atau 1) ";
+            cin >> y;
+            hasil = !(x ^ y);
+            cout << "The result X XNOR Y is " << hasil ;
+            cout << "\n0 is FALSE and 1 is TRUE " << endl;
+            exit(0);
+            
+            case 8:
+            
+            cout << "Exit the programs. Thank you and LONG LIVE" ;
+            exit(0);
+            
+            default:
+            cout << "The choice is not valid. Please try again :(";
+            exit(0);
+        }
+    } while (pilihan != 7);
+    
+    return 0;
+}
